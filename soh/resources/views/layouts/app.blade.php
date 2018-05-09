@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', '{SoH}') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -22,10 +22,10 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
+        <nav class="navbar navbar-expand-sm bg-primary navbar-dark ">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    {{ config('app.name', '{SoH}') }}
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -33,7 +33,11 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="nav navbar-nav">
+                    &nbsp;
+                    <li><a class = "nav-link" href= "{{''}}">Game Files</a></li>
+                    <li><a class = "nav-link" href= "{{''}}">Members</a></li>
+                    <li><a class = "nav-link" href= "{{''}}">Search</a></li>
 
                     </ul>
 
@@ -66,10 +70,15 @@
                 </div>
             </div>
         </nav>
-
+        
+        @section('sidebar')
+            This is the master sidebar.
+        @show
+       
         <main class="py-4">
             @yield('content')
         </main>
     </div>
+    
 </body>
 </html>
