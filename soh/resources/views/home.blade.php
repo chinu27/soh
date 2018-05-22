@@ -8,14 +8,14 @@
                 <div class="card-header">Index</div>
 
                 <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
-                        </div>
-                    @endif
                     <?php
                     echo  "chinu";
                     ?>
+                <div class="mdl-layout__tab-panel mdl-color--grey-100 is-active" id="shoutouts">	
+				   
+
+			    </div>
+                    @include('partials.addshout')
                 </div>
             </div>
         </div>

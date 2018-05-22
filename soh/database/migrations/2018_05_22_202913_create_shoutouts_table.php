@@ -28,6 +28,6 @@ class CreateShoutoutsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('shoutouts');
+       // Schema::dropIfExists('shoutouts');
     }
 }
