@@ -19,28 +19,24 @@ Route::get('greeting', function () {
     return view('welcome', ['name' => 'chinu']);
 });
 
+Route::get('gamefiles', function()
+{
+    return View::make('pages.gamefiles');
+});
+Route::get('members', function()
+{
+    return View::make('pages.members');
+});
+Route::get('search', function()
+{
+    return View::make('pages.search');
+});
 
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
+Route::resource('shoutouts', 'SiteController');
 
-Route::get('/home', 'HomeController@index')->name('home');

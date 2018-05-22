@@ -35,9 +35,9 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
                     &nbsp;
-                    <li><a class = "nav-link" href= "{{''}}">Game Files</a></li>
-                    <li><a class = "nav-link" href= "{{''}}">Members</a></li>
-                    <li><a class = "nav-link" href= "{{''}}">Search</a></li>
+                    <li><a class = "nav-link" href= "{{'gamefiles'}}">Game Files</a></li>
+                    <li><a class = "nav-link" href= "{{'members'}}">Members</a></li>
+                    <li><a class = "nav-link" href= "{{'search'}}">Search</a></li>
 
                     </ul>
 
@@ -71,9 +71,7 @@
             </div>
         </nav>
         
-        @section('sidebar')
-            This is the master sidebar.
-        @show
+
        
         <main class="py-4">
             @yield('content')
