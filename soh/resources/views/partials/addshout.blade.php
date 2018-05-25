@@ -1,7 +1,7 @@
 <div class="mdl-layout__tab-panel" id="add-shoutout">
 	<section class="section--center mdl-grid mdl-grid--no-spacing">
 		<form action="{{ route('shoutouts.store') }}" method="POST" id="create-form" class="mdl-cell mdl-cell--12-col">
-			<h2 class="mdl-typography--display-4">Make Some Noise</h2>
+			<h3 class="mdl-display-4">Make Some Noise</h3>
 			
 
 			<div>

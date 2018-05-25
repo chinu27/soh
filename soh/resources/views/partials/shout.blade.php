@@ -7,16 +7,16 @@
 	<div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
 		<div class="mdl-card__supporting-text">
 			<h4>
-				{{ '@'. $shoutout->meme}}
+				{{ '@'. "hellp"}}
 				<strong>
 					<small>&nbsp;said:</small>
 				</strong>
 			</h4>
-			{{ $shoutout->content }}
+			{{ "kkkkk" }}
 		</div>
 		<div class="mdl-card__actions">
-			<a href="{{ 'https://www.google.com/' . $shoutout->mame }}"
-				class="mdl-button" target="_blank">Visit {{ '@' . $shoutout->mame }}
+			<a href="{{ 'https://www.google.com/' . 'aaaaa' }}"
+				class="mdl-button" target="_blank">Visit {{ '@' . "ddddddd"}}
 			</a>
 		</div>
 	</div>

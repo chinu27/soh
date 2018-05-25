@@ -11,11 +11,25 @@
                     <?php
                     echo  "chinu";
                     ?>
-                <div class="mdl-layout__tab-panel mdl-color--grey-100 is-active" id="shoutouts">	
-				   
+                        <div class="mdl-layout__tab-bar mdl-color--blue">
+		                    <a href="hahah" class="mdl-layout__tab is-active">Shoutouts</a>
+		                    <a href="add-shoutout" class="mdl-layout__tab">Add Shoutout</a>
+	                     </div>
 
-			    </div>
-                    @include('partials.addshout')
+
+                         <div class="mdl-layout__tab-panel mdl-color--grey-100 is-active" id="shoutouts">	
+				            
+					            @include('partials.shout', compact('shoutout'))
+				                   
+					            <h5>Nothing to Show</h5>
+				               
+
+				                
+			                    </div>
+
+			                @include('partials.addshout')
+
+                   
                 </div>
             </div>
         </div>
