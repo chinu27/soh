@@ -10,14 +10,14 @@
 
                 <div class="panel-body">
                     <chat-messages :messages="messages"></chat-messages>
-                    
+                    ye kya hai..
                 </div>
                 <div class="panel">
                     <chat-form
                         v-on:messagesent="addMessage"
                         :user="{{ Auth::user() }}"
                     ></chat-form>
-                </div>
+                </div> 
             </div>
         </div>
     </div>
