@@ -11,7 +11,10 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
         <!-- Styles -->
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.deep_purple-purple.min.css" /> 
         <style>
+        
             html, body {
                 background-color: #fff;
                 color: #636b6f;
@@ -65,31 +68,41 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <nav class="navbar navbar-expand-sm bg-primary navbar-dark ">
+            <div class="container">
+            <ul class = "navbar-nav ml-auto">
             @if (Route::has('login'))
-                <div class="top-right links">
+
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <li><a class ="nav-link" href="{{ url('/home') }}">Home</a></li>
+                        <li><a class ="nav-link" href="{{ url('/home') }}">About</a></li>
+                        <li><a class ="nav-link" href="{{ url('/home') }}">FAQ</a></li>
                     @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
+                        <li><a class ="nav-link" href="{{ route('login') }}">Login</a></li>
+                        <li><a class ="nav-link" href="{{ route('register') }}">Register</a></li>
                     @endauth
-                </div>
             @endif
+            </ul>
+            </div>
+        </nav>
+        <div class="flex-center position-ref full-height">
+
 
             <div class="content">
                 <div class="title m-b-md">
-                    {SoH}
+                    Soldiers of Honour
                 </div>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="//link">Gamer Community</a>
+                    <a href="https://github.com/chinu27/soh">GitHub</a>
+                    <a href="{{ url('/home') }}">Home</a>
+                </div>
+                <div class="content">
+                    SoH is a free platform for Gamers to meet different Gamers all over the world and share their gmaing experiences with each other.
+                    Form your clan/guild for your favourive game or join and existing one and enjoy gaming together with friends. 
                 </div>
             </div>
         </div>
-    </body>
 </html>
