@@ -16,10 +16,7 @@
         <style>
         
             html, body {
-                background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://csgopedia.com/uploads/blog/image009-min.png') no-repeat center center fixed;
-                -webkit-background-size: cover;
-                -moz-background-size: cover;
-                -o-background-size: cover;
+                background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images2.alphacoders.com/570/570396.jpg') no-repeat center center fixed;
                 background-size: cover;
                 
                 background-color: #fff;
@@ -64,13 +61,19 @@
 
             .title {
                 font-size: 72px;
+                margin: 30px 0 10px 0;
                 text-transform: uppercase;
                 font-weight: 700;
                 color: #fff;
 
                 
             }
-
+            
+            p {
+            padding-top: 30px;
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+            }   
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
@@ -87,7 +90,7 @@
         </style>
     </head>
     <body>
-        <nav class = "navbar navbar-expand-sm bg-primary navbar-dark navbar-fixed-top" >
+        <nav class = "navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
             <div class="container-fluid">
             <div class="navbar-header">
             <a class="navbar-brand" href="#">SoH</a>
@@ -107,18 +110,8 @@
             </ul>
             </div>
         </nav>
-            <br>
-            <br><br>
-            <br><br>
-            <br><br>
-            <br><br>
-            <br>
-            <br>
-            <br><br>
-            <br><br>
-            <br><br><br><br>
-            <br><br><br>
-
+           <section id ="zero">
+            <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
                     Soldiers of Honour
@@ -130,17 +123,21 @@
                     <a href="https://github.com/chinu27/soh">GitHub</a>
                     <a href="{{ url('/home') }}">Home</a>
                 </div>
-                <div class="content">
-                <br>
-                <br>
-                <br>
-                <br><br>
-                <br><br>
-                <br><br>
-                <br>
-                   
-                    SoH is a free platform for Gamers to meet different Gamers all over the world and share their gmaing experiences with each other.
+                    <p>SoH is a free platform for Gamers to meet different Gamers all over the world and share their gmaing experiences with each other.
                     Form your clan/guild for your favourive game or join and existing one and enjoy gaming together with friends. 
+                    </p>
                 </div>
             </div>
+            </section>
+            </section id ="one">
+            <div class="flex-center position-ref full-height">
+            <div class = "content">
+
+            <!-- data to be filled -->
+
+
+            </div>
+            </div>
+            </section>
+
 </html>

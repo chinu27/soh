@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.deep_purple-purple.min.css" /> 
     <style>
 html, body {
-  
+
             }
   
   .chat {
@@ -67,7 +67,7 @@ html, body {
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-sm bg-primary navbar-dark ">
+        <nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', '{SoH}') }}
