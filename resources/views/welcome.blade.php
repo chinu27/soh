@@ -16,14 +16,28 @@
         <style>
         
             html, body {
+                background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://csgopedia.com/uploads/blog/image009-min.png') no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                
                 background-color: #fff;
-                color: #636b6f;
+                color: #fff;
                 font-family: 'Raleway', sans-serif;
-                font-weight: 100;
+                font-weight: 300;
+                margin: 0 0 20px 0;
+                padding: 0;
                 height: 100vh;
-                margin: 0;
             }
-
+            
+            h1 {
+            margin: 30px 0 10px 0;
+            font-weight: 700;
+            line-height: 48px;
+            text-transform: uppercase;
+            color: #fff;
+}
             .full-height {
                 height: 100vh;
             }
@@ -49,7 +63,12 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 72px;
+                text-transform: uppercase;
+                font-weight: 700;
+                color: #fff;
+
+                
             }
 
             .links > a {
@@ -68,9 +87,12 @@
         </style>
     </head>
     <body>
-        <nav class="navbar navbar-expand-sm bg-primary navbar-dark ">
-            <div class="container">
-            <ul class = "navbar-nav ml-auto">
+        <nav class = "navbar navbar-expand-sm bg-primary navbar-dark navbar-fixed-top" >
+            <div class="container-fluid">
+            <div class="navbar-header">
+            <a class="navbar-brand" href="#">SoH</a>
+            </div>
+            <ul class = "navbar-nav navbar-right">
             @if (Route::has('login'))
 
                     @auth
@@ -85,8 +107,17 @@
             </ul>
             </div>
         </nav>
-        <div class="flex-center position-ref full-height">
-
+            <br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br>
+            <br>
+            <br><br>
+            <br><br>
+            <br><br><br><br>
+            <br><br><br>
 
             <div class="content">
                 <div class="title m-b-md">
@@ -100,9 +131,16 @@
                     <a href="{{ url('/home') }}">Home</a>
                 </div>
                 <div class="content">
+                <br>
+                <br>
+                <br>
+                <br><br>
+                <br><br>
+                <br><br>
+                <br>
+                   
                     SoH is a free platform for Gamers to meet different Gamers all over the world and share their gmaing experiences with each other.
                     Form your clan/guild for your favourive game or join and existing one and enjoy gaming together with friends. 
                 </div>
             </div>
-        </div>
 </html>

@@ -23,6 +23,10 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.deep_purple-purple.min.css" /> 
     <style>
+html, body {
+  
+            }
+  
   .chat {
     list-style: none;
     margin: 0;
