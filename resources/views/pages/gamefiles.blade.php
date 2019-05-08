@@ -5,10 +5,11 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">gamefile</div>
-
                 <div class="card-body">
-                   gamefiles
+                   Select Your Preferred Game from the following list of Games
+                </div>
+                <div class="card-body">
+                   Counter Strike: Global Offensive
                 </div>
             </div>
         </div>

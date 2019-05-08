@@ -23,6 +23,10 @@ Route::get('gamefiles', function()
 {
     return View::make('pages.gamefiles');
 });
+Route::get('chat', function()
+{
+    return View::make('pages.chat');
+});
 Route::get('members', function()
 {
     return View::make('pages.members');

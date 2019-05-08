@@ -16,18 +16,23 @@
         <style>
         
             html, body {
-                background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images2.alphacoders.com/570/570396.jpg') no-repeat center center fixed;
                 background-size: cover;
-                
-                background-color: #fff;
-                color: #fff;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 300;
                 margin: 0 0 20px 0;
                 padding: 0;
-                height: 100vh;
+                height: 100%;
             }
+            .bg-overlay {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images2.alphacoders.com/570/570396.jpg') fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            padding: 0;
+            height: 100%;
             
+}
+
             h1 {
             margin: 30px 0 10px 0;
             font-weight: 700;
@@ -111,15 +116,16 @@
             </div>
         </nav>
            <section id ="zero">
+           <div class="container bg-overlay">
             <div class="flex-center position-ref full-height">
+            
             <div class="content">
                 <div class="title m-b-md">
                     Soldiers of Honour
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="//link">Gamer Community</a>
+                    <a href="//link">Gaming Community</a>
                     <a href="https://github.com/chinu27/soh">GitHub</a>
                     <a href="{{ url('/home') }}">Home</a>
                 </div>
@@ -129,15 +135,17 @@
                 </div>
             </div>
             </section>
-            </section id ="one">
             <div class="flex-center position-ref full-height">
-            <div class = "content">
-
-            <!-- data to be filled -->
-
-
+            <section>
+   <div >
+      A short paragraph that is contained to a max width by a container. A short paragraph that is contained to a max width by a container. A short paragraph that is contained to a max width by a container. A short paragraph that is contained to a max width
+      by a container. A short paragraph that is contained to a max width by a container. A short paragraph that is contained to a max width by a container.
+   </div>
+</section>
+            
             </div>
             </div>
-            </section>
+            
+
 
 </html>

@@ -14,7 +14,7 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="//js.pusher.com/2.2/pusher.min.js"></script>
-
+    
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
@@ -82,6 +82,7 @@ html, body {
                     &nbsp;
                     <li><a class = "nav-link" href= "{{'gamefiles'}}">Game Files</a></li>
                     <li><a class = "nav-link" href= "{{'members'}}">Members</a></li>
+                    <li><a class = "nav-link" href= "{{'chat'}}">Live Chat</a></li>
                     <li><a class = "nav-link" href= "{{'search'}}">Search</a></li>
 
                     </ul>
