@@ -1,7 +1,7 @@
 # soh 
 
 SoH was the name of the first clan i ever played multiplayer games with.
-They were a bunch of really people i had the pleasure to meet and play with.
+They were a bunch of really nice people i had the pleasure to meet and play with.
 
 
  Various Functionalities-
