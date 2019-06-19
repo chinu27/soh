@@ -13,89 +13,10 @@
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.deep_purple-purple.min.css" /> 
-        <style>
-        
-            html, body {
-                background-size: cover;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 300;
-                margin: 0 0 20px 0;
-                padding: 0;
-                height: 100%;
-            }
-            .bg-overlay {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images2.alphacoders.com/570/570396.jpg') fixed;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            padding: 0;
-            height: 100%;
-            
-}
-
-            h1 {
-            margin: 30px 0 10px 0;
-            font-weight: 700;
-            line-height: 48px;
-            text-transform: uppercase;
-            color: #fff;
-}
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 72px;
-                margin: 30px 0 10px 0;
-                text-transform: uppercase;
-                font-weight: 700;
-                color: #fff;
-
-                
-            }
-            
-            p {
-            padding-top: 30px;
-            margin-bottom: 30px;
-            padding-bottom: 30px;
-            }   
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
+       
     </head>
     <body>
-        <nav class = "navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
+        <nav class = "navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
             <div class="navbar-header">
             <a class="navbar-brand" href="#">SoH</a>
@@ -115,37 +36,17 @@
             </ul>
             </div>
         </nav>
-           <section id ="zero">
-           <div class="container bg-overlay">
-            <div class="flex-center position-ref full-height">
-            
-            <div class="content">
-                <div class="title m-b-md">
-                    Soldiers of Honour
+        <header class="masthead">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                <div class="col-12 text-center">
+                    <h1 class="font-weight-light">Vertically Centered Masthead Content</h1>
+                    <p class="lead">A great starter layout for a landing page</p>
                 </div>
-
-                <div class="links">
-                    <a href="//link">Gaming Community</a>
-                    <a href="https://github.com/chinu27/soh">GitHub</a>
-                    <a href="{{ url('/home') }}">Home</a>
-                </div>
-                    <p>SoH is a free platform for Gamers to meet different Gamers all over the world and share their gmaing experiences with each other.
-                    Form your clan/guild for your favourive game or join and existing one and enjoy gaming together with friends. 
-                    </p>
                 </div>
             </div>
-            </section>
-            <div class="flex-center position-ref full-height">
-            <section>
-   <div >
-      A short paragraph that is contained to a max width by a container. A short paragraph that is contained to a max width by a container. A short paragraph that is contained to a max width by a container. A short paragraph that is contained to a max width
-      by a container. A short paragraph that is contained to a max width by a container. A short paragraph that is contained to a max width by a container.
-   </div>
-</section>
-            
-            </div>
-            </div>
-            
+        </header>
 
-
+       
+    </body>
 </html>

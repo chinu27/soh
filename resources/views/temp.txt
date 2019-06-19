@@ -1,0 +1,52 @@
+<div class = "main-wrapper">
+        <div class = container>
+        <nav class = "navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
+            <div class="container-fluid">
+            <div class="navbar-header">
+            <a class="navbar-brand" href="#">SoH</a>
+            </div>
+            <ul class = "navbar-nav navbar-right">
+            @if (Route::has('login'))
+
+                    @auth
+                        <li><a class ="nav-link" href="{{ url('/home') }}">Home</a></li>
+                        <li><a class ="nav-link" href="{{ url('/home') }}">About</a></li>
+                        <li><a class ="nav-link" href="{{ url('/home') }}">FAQ</a></li>
+                    @else
+                        <li><a class ="nav-link" href="{{ route('login') }}">Login</a></li>
+                        <li><a class ="nav-link" href="{{ route('register') }}">Register</a></li>
+                    @endauth
+            @endif
+            </ul>
+            </div>
+        </nav>
+        </div>
+           <section id ="zero">
+            <div class = "container">
+            <div class="content">
+                <div class="title">
+                    Soldiers of Honour
+                </div>
+
+                <div class="links">
+                    <a href="https://laravel.com/docs">Documentation</a>
+                    <a href="//link">Gamer Community</a>
+                    <a href="https://github.com/chinu27/soh">GitHub</a>
+                    <a href="{{ url('/home') }}">Home</a>
+                </div>
+                    
+                </div>
+            </div>
+            </section>
+            <section id ="one">
+        
+
+            <!-- data to be filled <p> SoH is a free platform for Gamers to meet different Gamers all over the world and share their gmaing experiences with each other.
+                    Form your clan/guild for your favourive game or join and existing one and enjoy gaming together with friends. 
+                    </p>  -->
+ 
+
+           
+            
+            </section>
+    </div>

@@ -10477,3 +10477,11 @@ a.text-dark:focus {
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://images2.alphacoders.com/570/570396.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
