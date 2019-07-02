@@ -40,12 +40,28 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                 <div class="col-12 text-center">
-                    <h1 class="font-weight-light">Vertically Centered Masthead Content</h1>
-                    <p class="lead">A great starter layout for a landing page</p>
+                    <h1 class="text-light">Soldiers Of Honours.</h1>
+                    <p class="text-light">A Forum for Gamers and Gameservers</p>
+                    <button class="btn btn-primary">Login</button>
+
+                </div>
+                <div class= "col-12 text-center bg-light">
+                    <p class = "text-dark ">Hi and Welcome to SoH soldier. Good luck for all the battles ahead and remember to make lots of Connections</p>
                 </div>
                 </div>
             </div>
         </header>
+        <div class = "container">
+            <div class= "row">
+                <div class = "col-md-12 text-center bg-light">
+                <p> damn this is cool stuff</p>
+                </div>
+                
+            </div>
+        
+        </div>
+    
+
 
        
     </body>
